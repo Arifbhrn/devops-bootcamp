@@ -1,0 +1,8 @@
+NETWORK ID     NAME      DRIVER    SCOPE
+7706e13f6c72   arena     bridge    local
+b0449d853f8e   bridge    bridge    local
+04e563833c04   host      host      local
+0a848d5c66c1   none      null      local
+DRIVER    VOLUME NAME
+local     arena_me
+local     me
