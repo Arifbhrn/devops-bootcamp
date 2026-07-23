@@ -1,0 +1,8 @@
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 046797548232.dkr.ecr.us-east-1.amazonaws.com
+
+docker build -t devops-bootcamp/arif .
+
+docker tag devops-bootcamp/arif:latest 046797548232.dkr.ecr.us-east-1.amazonaws.com/devops-bootcamp/arif:latest
+
+docker push 046797548232.dkr.ecr.us-east-1.amazonaws.com/devops-bootcamp/arif:latest
+
